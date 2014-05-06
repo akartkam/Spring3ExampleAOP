@@ -33,7 +33,9 @@
   <bean id="volunteer" 
       class="com.springinaction.springidol.Volunteer" />
   <bean id="magician" 
-      class="com.springinaction.springidol.Magician" /> 
+      class="com.springinaction.springidol.Magician" />
+  <bean id="contestantaspect"
+      class="com.springinaction.springidol.ContestantIntroducer"/> 
       
 <!--   <bean id="app" class="com.mkyong.core.App" />  -->
        

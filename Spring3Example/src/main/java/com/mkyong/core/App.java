@@ -12,6 +12,7 @@ import com.mkyong.customer.bo.CustomerBo;
 import com.springinaction.springidol.MindReader;
 import com.springinaction.springidol.Performer;
 import com.springinaction.springidol.Thinker;
+import com.springinaction.springidol.Contestant;
 
 @Component("app")
 public class App {
@@ -48,7 +49,7 @@ public class App {
 		
 	    Performer eddie = (Performer) appContext.getBean("eddie");
 	    eddie.perform();
-	    
+	    ((Contestant)eddie).receiveAward();
 	    
 
 	}
